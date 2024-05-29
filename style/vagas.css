@@ -28,6 +28,10 @@
     padding-bottom: 44px;
 }
 
+.vagas-img {
+    width: 90%;
+}
+
 .vagas-design, .vagas-dev {
     margin-right: 5%;
     gap: 24px;

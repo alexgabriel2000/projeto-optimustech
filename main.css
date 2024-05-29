@@ -2,6 +2,8 @@
 @import url('style/navegacao.css');
 @import url('style/metricas.css');
 @import url('style/vagas.css');
+@import url('style/depoimentos.css');
+@import url('style/formulario.css');
 
 :root {
     --cor-branca: #FFFFFF;
