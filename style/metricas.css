@@ -1,0 +1,41 @@
+.metricas {
+    padding-bottom: 6em;
+    font-family: var(--fonte-principal);
+}
+
+.metricas__lista {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    justify-content: center;
+    gap: 2em;
+}
+
+.padding-left {
+    padding-left: 2em;
+}
+
+.padding-right {
+    padding-right: 2em;
+}
+
+.metricas__estilizacao {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+}
+
+.metricas__textos {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 0 8px 0;
+    color: var(--azul-escuro);
+}
+
+.metricas__subtextos {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza-claro);
+}
+
+

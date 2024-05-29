@@ -1,0 +1,41 @@
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 5em;
+    font-family: var(--fonte-principal);
+}
+
+.navegacao__titulo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0 8px 32px;
+}
+
+.navegacao__lista {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 10%;
+    gap: 35px;
+}
+
+.navegacao__link {
+    text-decoration: none;
+    color: var(--cinza-claro);
+}
+
+.navegacao__botao {
+    color: var(--cor-branca);
+    background-color: var(--vermelho-escuro);
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 32px;
+}
+
+.cabecalho__lista-secundaria {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

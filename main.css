@@ -1,0 +1,23 @@
+@import url('style/header.css');
+@import url('style/navegacao.css');
+@import url('style/metricas.css');
+@import url('style/vagas.css');
+
+:root {
+    --cor-branca: #FFFFFF;
+    --cinza-claro: #667085;
+    --vermelho-escuro: #8E2424;
+    --fonte-principal: "Inter", sans-serif;
+    --azul-escuro: #101828;
+}
+
+body {
+    background-color: var(--cor-branca);
+    font-family: var(--fonte-principal);
+}
+
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}

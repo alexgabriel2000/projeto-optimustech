@@ -1,2 +1,2 @@
 # projeto-optimustech
-Refazendo projeto optimustech da Alura
+ Começando projeto optimustech da Alura

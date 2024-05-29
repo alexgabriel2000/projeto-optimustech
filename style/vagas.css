@@ -1,0 +1,110 @@
+.secao__vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 6em 0;
+    font-family: var(--fonte-principal);
+}
+
+.vagas-subtitulo {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho-escuro);
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 3px 5px;
+    border-radius: 16px;
+}
+
+.vagas-titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+}
+
+.vagas-texto {
+    font-size: 20px;
+    color: var(--cinza-claro);
+    padding-bottom: 44px;
+}
+
+.vagas-design, .vagas-dev {
+    margin-right: 5%;
+    gap: 24px;
+}
+
+/* LISTA DESIGN */
+
+.vagas-design {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5em;
+}
+
+.design-profissao {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--azul-escuro);
+    padding-bottom: 1em;
+}
+
+.design-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 2em;
+    gap: 2em;
+    border: 1px solid rgba(234, 236, 240, 1);
+    border-radius: 16px;
+}
+
+.design-texto {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul-escuro);
+}
+
+.design-espacamento {
+    display: flex;
+    gap: 2em;
+    font-weight: 500;
+    color: var(--cinza-claro);
+}
+
+/* LISTA DEV */
+
+.vagas-dev {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5em;
+}
+
+.dev-profissao {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--azul-escuro);
+    padding-bottom: 1em;
+}
+
+.dev-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 2em;
+    gap: 2em;
+    border: 1px solid rgba(234, 236, 240, 1);
+    border-radius: 16px;
+}
+
+.dev-texto {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul-escuro);
+}
+
+.dev-espacamento {
+    display: flex;
+    gap: 2em;
+    color: var(--cinza-claro);
+    font-weight: 500;
+}
